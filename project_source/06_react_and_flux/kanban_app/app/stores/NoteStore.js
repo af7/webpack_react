@@ -12,6 +12,7 @@ class NoteStore {
     this.notes.push({task});
   }
   update({id, task}) {
+    // Shouldn't it use the this.setState() instead? If yes, how?
     this.notes[id].task = task;
   }
   remove(id) {
