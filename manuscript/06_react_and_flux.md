@@ -467,7 +467,7 @@ As you can see the HOCs have been wrapped within functions that return functions
 
 ```javascript
 ...
-
+// How do I add a 2nd store to the App if i wish?
 @persist(NoteActions.init, NoteStore, storage, 'notes')
 @connect(NoteStore)
 export default class App extends React.Component {
